@@ -83,7 +83,7 @@ public class EventScheduler extends TimerTask {
 						}
 						// Twitter
 						try {
-							if(!this.contract.isExcludeTwitter()) this.contract.getTwitBot().sendEvent(e);
+							if(!this.contract.isExcludeTwitter()) this.contract.getTwitBot().sendEvent(e, this.contract.getConfig());
 						} catch (Exception ex) {
 							LOGGER.error("Error on Twitter dispatch of contract id {} with excpetion {} - {}", this.contract.getId(), ex.getCause(), ex.getMessage());
 						}
