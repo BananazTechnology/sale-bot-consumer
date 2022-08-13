@@ -74,4 +74,8 @@ public class Contract {
 	public boolean getIsSchedulerActive() {
 		return this.newRequest.isActive();
 	}
+	
+	public String getDiscordChannelId() {
+		return this.bot.getServerTextChannel();
+	}
 }
