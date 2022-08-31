@@ -159,7 +159,7 @@ public class UpdateScheduler extends TimerTask {
 					}
 					if(updatedItems.size() > 0) {
 						if(nonNull(cont)) cont.setConfig(conf);
-						LOGGER.debug("Contract {} updated {}", conf.getId(), Arrays.toString(updatedItems.toArray()));
+						LOGGER.info("Contract {} updated {}", conf.getId(), Arrays.toString(updatedItems.toArray()));
 					}
 				} catch(Exception ex) {
 					LOGGER.error("Failed inital parsing on id {}, exception {}", conf.getId(), ex.getMessage());
