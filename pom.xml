@@ -11,7 +11,7 @@
 	
 	<groupId>tech.bananaz</groupId>
 	<artifactId>sale-bot-consumer</artifactId>
-	<version>1.6.0</version>
+	<version>1.7.0</version>
 	<name>sale-bot-consumer</name>
 	<description>A @spring-projects framework project which reads items from @mysql</description>
 	

@@ -35,10 +35,6 @@ public class Contract {
 	private boolean active 			  = true;
 
 	// OpenSea settings
-	// Supports burning
-	private boolean burnWatcher 	  = false;
-	// Supports minting
-	private boolean mintWatcher 	  = false;
 	// For bundles support
 	private boolean showBundles 	  = true;
 
